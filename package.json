@@ -10,6 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "lucide": "^0.453.0",
     "url-join": "^5.0.0",
     "vue": "^3.5.10",
     "vue-router": "^4.4.5"
