@@ -51,8 +51,6 @@ const pagination = ref<PaginationOptions | undefined>();
 const filteredUsers = computed(() => {
     const searchedUsers = searchDebounced.value ? props.users.filter((user) => user.name.toLowerCase().includes(searchDebounced.value.toLowerCase())) : props.users;
 
-    if (!pagination.value) return searchedUsers;
-
     return searchedUsers;
 });
 
