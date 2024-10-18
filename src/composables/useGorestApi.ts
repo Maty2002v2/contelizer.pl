@@ -38,7 +38,6 @@ const editUser = async (userData: User): Promise<void> => {
     isError.value = false;
     
     const copy = JSON.parse(JSON.stringify(userData)); 
-    console
     if ('id' in copy) delete copy.id;
 
     try {

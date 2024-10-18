@@ -10,5 +10,5 @@ export default defineConfig({
             additionalData: '@import "./src/scss/mixin/breakpoints.scss";',
         },
     },
-},
+  },
 })
