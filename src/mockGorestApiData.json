@@ -1,0 +1,93 @@
+[
+    {
+        "id": 7472259,
+        "name": "Arun Khatri",
+        "email": "khatri_arun@west.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7472258,
+        "name": "Sheela Patil JD",
+        "email": "sheela_jd_patil@reilly-herzog.example",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 7472257,
+        "name": "The Hon. Usha Namboothiri",
+        "email": "the_namboothiri_usha_hon@pfannerstill.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7472256,
+        "name": "Dandapaani Ahluwalia PhD",
+        "email": "phd_ahluwalia_dandapaani@kozey.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7472255,
+        "name": "Deependra Guneta",
+        "email": "guneta_deependra@grady.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7472254,
+        "name": "Agniprava Varrier V",
+        "email": "varrier_agniprava_v@lemke-mayert.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7471651,
+        "name": "Digambar Talwar Jr.",
+        "email": "digambar_talwar_jr@koss-kutch.example",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 7471649,
+        "name": "Akshata Asan DO",
+        "email": "akshata_do_asan@white-stiedemann.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 7471648,
+        "name": "Soma Deshpande",
+        "email": "soma_deshpande@steuber.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 7471647,
+        "name": "Anang Patel",
+        "email": "anang_patel@aufderhar-gorczany.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 74716347,
+        "name": "Katara Patel",
+        "email": "Katara_patel@aufderhar-gorczany.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 23471647,
+        "name": "Zuko Patel",
+        "email": "Zuko_patel@aufderhar-gorczany.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 74441647,
+        "name": "Ang Patel",
+        "email": "Ang_patel@aufderhar-gorczany.example",
+        "gender": "male",
+        "status": "active"
+    }
+]

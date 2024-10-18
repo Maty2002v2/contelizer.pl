@@ -1,6 +1,7 @@
 import { ref } from 'vue';
 import urlJoin from 'url-join';
 import type { User, UserApi } from '../types';
+import mockData from '../mockGorestApiData.json'
 
 const url = 'https://gorest.co.in';
 const usersEndpoint = '/public/v2/users';
@@ -22,23 +23,32 @@ const getUsers = async () => {
         })
     
         const data = await response.json() as UserApi[];
+
         users.value = data;
     } catch (error) {
         isError.value = true;
+
+        //mock data, api nie działało w nocy
+        users.value = mockData;
     }
 
 }
 
-const editUser = async (userId: string, userData: User): Promise<void> => {
+const editUser = async (userData: User): Promise<void> => {
     isError.value = false;
+    
+    const copy = JSON.parse(JSON.stringify(userData)); 
+    console
+    if ('id' in copy) delete copy.id;
 
     try {
-        await fetch(`${urlJoin(url, usersEndpoint)}/${userId}`, {
+        await fetch(`${urlJoin(url, usersEndpoint)}/${userData.id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
+                Authorization: `Bearer ${import.meta.env.VITE_API_TOKEN}`
             },
-            body: JSON.stringify(userData)
+            body: JSON.stringify(copy)
         });
     
         await getUsers();
