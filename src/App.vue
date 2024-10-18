@@ -13,10 +13,15 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .links {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   margin-bottom: 30px;
+
+  @include breakpoint(sm) {
+    flex-direction: row;
+  }
 }
 </style>
